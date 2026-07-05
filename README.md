@@ -84,3 +84,19 @@ The following observations were made:
 - Observed source and destination IP addresses.
 - Observed source and destination port numbers.
 - Observed reliable communication between devices.
+### UDP Analysis
+
+Filter Used
+
+```text
+udp
+```
+
+UDP packets were analyzed using the Wireshark display filter.
+
+The following observations were made:
+
+- Captured UDP packets between different devices.
+- Observed source and destination IP addresses.
+- Observed source and destination port numbers.
+- Observed communication without establishing a connection.
