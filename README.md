@@ -78,7 +78,7 @@ tcp
 
 TCP packets were analyzed using the Wireshark display filter.
 
-The following observations were made:
+Observed:
 
 - Captured TCP packets between different devices.
 - Observed source and destination IP addresses.
@@ -94,7 +94,7 @@ udp
 
 UDP packets were analyzed using the Wireshark display filter.
 
-The following observations were made:
+Observed:
 
 - Captured UDP packets between different devices.
 - Observed source and destination IP addresses.
@@ -110,7 +110,7 @@ dns
 
 DNS packets were analyzed using the Wireshark display filter.
 
-The following observations were made:
+Observed:
 
 - Captured DNS query and response packets.
 - Observed domain name requests.
@@ -125,7 +125,7 @@ tls
 
 TLS packets were analyzed using the Wireshark display filter.
 
-The following observations were made:
+Observed:
 
 - Captured encrypted network traffic.
 - Observed secure communication between devices.
