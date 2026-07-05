@@ -65,3 +65,24 @@ capture.pcapng
 ```
 
 Store the file inside the **captures** folder for future analysis.
+## Packet Analysis
+
+The captured network traffic was analyzed using Wireshark display filters to observe different protocols and their communication patterns.
+### TCP Analysis
+
+Filter Used
+
+```text
+tcp
+```
+
+TCP packets were analyzed to observe reliable, connection-oriented communication between hosts.
+
+The following details were observed:
+
+- Source and destination IP addresses
+- Source and destination port numbers
+- TCP flags (SYN, ACK, FIN)
+- Sequence and acknowledgement numbers
+- Packet length
+- IPv4 and IPv6 communication
