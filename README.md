@@ -131,3 +131,32 @@ The following observations were made:
 - Observed secure communication between devices.
 - Identified TLSv1.2 packets.
 - Observed data exchanged over secure HTTPS connections.
+## Opening Saved Captures
+
+Previously saved packet captures can be opened in Wireshark for further analysis.
+
+1. Open Wireshark.
+2. Click **File → Open**.
+3. Select the `capture.pcapng` file.
+4. Apply display filters such as `tcp`, `udp`, `dns`, or `tls` to analyze the captured packets.
+## Troubleshooting
+
+### No packets are displayed
+
+- Ensure the correct network interface is selected.
+- Verify that the network connection is active.
+
+### Unable to capture packets
+
+- Run Wireshark as **Administrator**.
+- Ensure Npcap is installed correctly.
+
+### Display filters return no results
+
+- Verify that the selected protocol exists in the captured traffic.
+- Remove the filter and check the complete packet capture.
+## Tools Used
+
+- Wireshark
+- Windows 11
+- Command Prompt
