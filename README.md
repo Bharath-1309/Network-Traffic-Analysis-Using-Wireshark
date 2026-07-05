@@ -100,3 +100,18 @@ The following observations were made:
 - Observed source and destination IP addresses.
 - Observed source and destination port numbers.
 - Observed communication without establishing a connection.
+### DNS Analysis
+
+Filter Used
+
+```text
+dns
+```
+
+DNS packets were analyzed using the Wireshark display filter.
+
+The following observations were made:
+
+- Captured DNS query and response packets.
+- Observed domain name requests.
+- Identified communication between the client and DNS server.
