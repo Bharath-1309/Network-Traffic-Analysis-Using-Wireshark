@@ -76,13 +76,11 @@ Filter Used
 tcp
 ```
 
-TCP packets were analyzed to observe reliable, connection-oriented communication between hosts.
+TCP packets were analyzed using the Wireshark display filter.
 
-The following details were observed:
+The following observations were made:
 
-- Source and destination IP addresses
-- Source and destination port numbers
-- TCP flags (SYN, ACK, FIN)
-- Sequence and acknowledgement numbers
-- Packet length
-- IPv4 and IPv6 communication
+- Captured TCP packets between different devices.
+- Observed source and destination IP addresses.
+- Observed source and destination port numbers.
+- Observed reliable communication between devices.
