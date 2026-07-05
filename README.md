@@ -115,3 +115,19 @@ The following observations were made:
 - Captured DNS query and response packets.
 - Observed domain name requests.
 - Identified communication between the client and DNS server.
+### TLS Analysis
+
+Filter Used
+
+```text
+tls
+```
+
+TLS packets were analyzed using the Wireshark display filter.
+
+The following observations were made:
+
+- Captured encrypted network traffic.
+- Observed secure communication between devices.
+- Identified TLSv1.2 packets.
+- Observed data exchanged over secure HTTPS connections.
