@@ -20,3 +20,48 @@ Before capturing network traffic, ensure the following requirements are met:
 3. During installation, ensure **Npcap** is selected, as it is required for packet capturing.
 
 4. After installation, launch Wireshark as **Administrator**.
+
+## Capturing Traffic with Wireshark
+
+### Launch Wireshark
+
+Open Wireshark by running it as **Administrator**.
+
+### Select Network Interface
+
+Choose the active network interface (Wi-Fi or Ethernet) that is connected to the Internet.
+
+### Start Packet Capture
+
+Click the **blue shark fin** icon to begin capturing network traffic.
+
+### Generate Network Traffic
+
+Generate different types of network traffic by performing the following actions:
+
+- Browse websites such as Google, GitHub, and YouTube.
+- Run the following command to generate ICMP traffic:
+
+```cmd
+ping google.com
+```
+
+- Run the following command to generate DNS traffic:
+
+```cmd
+nslookup google.com
+```
+
+### Stop Packet Capture
+
+Click the **red stop** button after capturing sufficient packets.
+
+### Save Packet Capture
+
+Go to **File → Save As** and save the captured packets as:
+
+```
+capture.pcapng
+```
+
+Store the file inside the **captures** folder for future analysis.
